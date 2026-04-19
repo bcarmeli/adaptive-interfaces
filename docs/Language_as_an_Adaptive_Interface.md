@@ -49,22 +49,23 @@ that better serve the dual role of:
 We consider agents with:
 
 - a **private latent space** (internal representations, reasoning processes),
-- and a **shared interface** (e.g., natural language).
+- and an **observable communicative interface** (e.g., natural language).
 
-Agents cannot directly access each other's latent spaces, and must rely on observable communication.
+Agents cannot directly access each other's latent spaces. They can only observe the affordances exposed through communication.
 
 ### Key Idea
 
-> Communication acts as an imperfect probe of whether a receiver’s latent space is relevant to the sender’s needs.
+> Communication acts as an imperfect interface for exposing agent-relative affordances.
 
+An affordance is not a property of the receiver alone. It depends on the receiver’s latent capabilities, the sender’s needs, and the sender’s ability to interpret the receiver’s interface.
 
-Senders must infer:
+Thus, senders must infer:
 
 - which receivers are likely to be useful partners,
-- based only on the partial communicative interface those receivers expose.
+- what those receivers afford for the current task,
+- and whether those affordances can be accessed through communication.
 
-
-At the same time, agents can strategically shape their communicative interface to influence both selection and subsequent task execution.
+At the same time, receivers can strategically shape their communicative interface to influence which affordances become visible during selection and usable during task execution.
 
 ---
 
@@ -134,7 +135,7 @@ This asymmetry induces strategic behavior:
 
 ### 6.1. Strategic Interface Shaping
 
-Receivers may adapt their communication to:
+Receivers may adapt their communicative interface to:
 - match the sender’s style,
 - signal shared reasoning patterns,
 - or overstate their competence.
@@ -158,22 +159,24 @@ We therefore expect pressure toward phase-specific interfaces:
 
 Senders attempt to identify receivers that will be most useful for accomplishing the task.
 
-Under full observability, selection could be based directly on the receiver’s latent space.
+Even if the receiver has useful latent capabilities, the sender cannot access them directly. They must become addressable through the interface, for example as signals, symbols, demonstrations, or other discrete references.
 
-In our setting, however, the receiver’s latent space is only partially exposed through its communicative interface.
+In our setting, those affordances are only partially exposed through the receiver’s communicative interface.
 
 This creates two related challenges:
 
-- during selection, the sender must infer the receiver’s latent task-fit through the interface,
-- during task execution, the sender must use that interface to access and exploit the receiver’s capabilities.
+- during selection, the sender must infer what the receiver affords for the task,
+- during task execution, the sender must use the same interface to access and coordinate those affordances.
 
-Thus, senders must assess both the receiver’s latent task-fit and the communicative interface through which that task-fit can be used.
+Thus, senders must assess both the receiver’s latent task-fit and the communicative interface through which that task-fit becomes usable.
 
 ---
 
 ### 6.4. Receiver-Side Adaptation
 
-Receivers may adapt their communicative interface to increase expected reward.
+Receivers may adapt their communicative interface to make certain affordances more visible and increase expected reward.
+
+Unlike passive objects or fixed tools, intelligent receivers can actively reshape the interface through which their affordances are perceived.
 
 This may include:
 - exposing capabilities that are relevant to the sender,
@@ -202,6 +205,7 @@ The resulting interface may therefore reflect a tradeoff between being selectabl
 This work connects to several lines of research:
 
 - emergent communication and coordination games,
+- ecological psychology and affordance theory,
 - signaling theory and mate selection,
 - advertising and attention systems,
 - theory-of-mind and strategic reasoning,
@@ -209,7 +213,7 @@ This work connects to several lines of research:
 
 However, it differs in a key aspect:
 
-> Rather than evaluating communication only by downstream task success, we study how it functions as an adaptive interface for both **partner selection** and **cooperative task completion**.
+> Rather than evaluating communication only by downstream task success, we study how it functions as an adaptive interface for exposing affordances across both **partner selection** and **cooperative task completion**.
 
 ---
 
@@ -240,8 +244,8 @@ Key variables to explore:
 2. **Selection vs. Task Success**
    - When does optimizing for being selected align with, or conflict with, downstream task performance?
 
-3. **Latent Task-Fit**
-   - Can senders infer receiver usefulness through a constrained communicative interface?
+3. **Affordance Inference**
+   - Can senders infer receiver affordances through a constrained communicative interface?
 
 4. **Faithful vs. Strategic Self-Presentation**
    - When does selection pressure reward faithful capability exposure, and when does it reward unfaithful or exaggerated self-presentation?
@@ -268,7 +272,7 @@ It aligns with the hypothesis that:
 ## 11. Open Questions
 
 - What constraints are necessary for non-trivial interface adaptation?
-- How can senders distinguish surface-level interface adaptation from latent task-fit?
+- How can senders distinguish surface-level interface adaptation from task-relevant affordances?
 - What metrics capture whether a communicative interface improves selection, task execution, or both?
 - When does selection pressure reward faithful versus unfaithful self-presentation?
 - Can pair-specific interfaces emerge between senders and selected receivers?
@@ -283,4 +287,4 @@ The experimental formulation remains intentionally open.
 Next steps:
 - formalize the selection-and-execution game,
 - design minimal experiments that separate selection pressure from task-success pressure,
-- identify measurable proxies for latent task-fit, mutual interpretability, and interface adaptation.
+- identify measurable proxies for task-relevant affordances, mutual interpretability, and interface adaptation.
