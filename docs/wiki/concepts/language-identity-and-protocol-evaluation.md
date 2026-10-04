@@ -89,7 +89,7 @@ Example: A reveals color and shape; B reveals color. A weakly dominates B inform
 
 This compares specified channels, not all possible uses of a natural language. Choosing the state space, encoders, and receiver assumptions is substantive even without a sampled benchmark. For interactive protocols, a static-channel model is an explicit simplification.
 
-References: [Blackwell (1953), Equivalent Comparisons of Experiments](https://doi.org/10.1214/aoms/1177729032); [2024 primary research on a general-state-space proof](https://doi.org/10.1016/j.econlet.2024.112146). Publisher full text was not retrieved; the elementary simulation argument above establishes the direction used here independently, and indexed research abstracts support the theorem context.
+References: [Blackwell (1953), Equivalent Comparisons of Experiments](https://doi.org/10.1214/aoms/1177729032); [2025 primary research on a general-state-space proof](https://doi.org/10.1016/j.econlet.2024.112146). Publisher full text was not retrieved; the elementary simulation argument above establishes the direction used here independently, and indexed research abstracts support the theorem context.
 
 ### Translation and Learning Complexity
 

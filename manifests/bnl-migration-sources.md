@@ -1,0 +1,32 @@
+# BNL migration source manifest
+
+Inventory date: 2026-10-04. This is a local migration ledger, not an instruction to ingest automatically. All 16 external citations in the current wiki are listed below. Search was against current BNL Notes by title/author and identifier; repeat before execution because another session may add material.
+
+Classification and evidence coverage are separate. An existing source note does not imply its full primary text was read. A citation is not independent support for our original separation proposition. Authored drafts are handled by the page manifest and retained as authored work, not external literature.
+
+| ID | Work / canonical identifier | Classification | Evidence coverage and migration action |
+| --- | --- | --- | --- |
+| S01 | Shannon (1948), *A Mathematical Theory of Communication*. [Primary text](https://www.cs.yale.edu/homes/yry/readings/general/shannon1948.pdf) | Missing and worth ingesting | Introduction and continuous/discrete/mixed definitions inspected. Ingest scoped note; do not claim support for universal semantic discreteness. |
+| S02 | Clark & Bangerter (2004), *Changing Ideas about Reference*. [Primary text](https://web.stanford.edu/~clark/2000s/Clark,%20H.H.%20_%20Bangerter,%20A.%20_Changing%20ideas%20about%20reference_%202004.pdf) | Already represented in BNL | Reuse `Notes/changing-ideas-about-reference.md`. Selected sections inspected here; existing note records further evidence. This chapter reviews earlier experiments; preserve that attribution. |
+| S03 | Malik-Moraleda et al. (2025), constructed languages. [DOI](https://doi.org/10.1073/pnas.2313473122) | Missing and worth ingesting | Primary abstract/results passages inspected. Preserve subgroup sample sizes and distinguish neural findings from proposed defining features. |
+| S04 | Ivanova et al. (2020), code comprehension. [DOI](https://doi.org/10.7554/eLife.58906) | Missing and worth ingesting | Author-hosted primary PDF abstract/introduction inspected. Claim concerns Python/ScratchJr in the studied tasks, not a universal exclusion of code from language. |
+| S05 | Malik-Moraleda et al. (2022), 45 languages / 12 families. [Article](https://www.nature.com/articles/s41593-022-01114-5) | Missing and worth ingesting | Primary abstract and accessible figure material inspected; full subscription text not obtained. Preserve scope. |
+| S06 | Fedorenko, Piantadosi & Gibson (2024), language and thought. [Article](https://www.nature.com/articles/s41586-024-07522-w) | Missing and worth ingesting | Perspective abstract/references inspected, not full subscription text. Label as review/argument, not a new experimental demonstration. |
+| S07 | Gooskens et al. (2018), mutual intelligibility. [DOI](https://doi.org/10.1080/14790718.2017.1350185) | Partially retrieved or unverified | Publisher-indexed passages inspected; direct retrieval failed. Retrieve primary text before expanding claims or reporting numerical results. |
+| S08 | Kirby, Cornish & Smith (2008), cultural evolution in the laboratory. [DOI](https://doi.org/10.1073/pnas.0707835105) | Missing and worth ingesting | Primary indexed abstract available; full experimental text not reviewed here. Use scoped summary until ingestion verifies conditions. |
+| S09 | Chaabouni et al. (2020), compositionality and generalization. [ACL](https://aclanthology.org/2020.acl-main.407/) | Missing and worth ingesting | Primary abstract inspected. Retain experimental scope for the non-correlation and transmission findings. |
+| S10 | Hockett (1960), *The Origin of Speech*. [Primary-text pointer](https://web.stanford.edu/class/linguist197a/hockett60sciam.pdf) | Partially retrieved or unverified | Direct full-text retrieval failed; historical pointer only. Do not create a fully processed evidence note without reading the source. |
+| S11 | Kloss (1967), Abstand/Ausbau. [JSTOR](https://www.jstor.org/stable/30029461) | Partially retrieved or unverified | Bibliographic pointer only; original text not retrieved. Keep provisional/citation-only treatment until read. |
+| S12 | Blackwell (1953), *Equivalent Comparisons of Experiments*. [DOI](https://doi.org/10.1214/aoms/1177729032) | Citation only | Original full text not retrieved. Cite historical origin; the wiki's finite-channel sufficient-direction proof is explicitly derived. Link to the existing modern BNL note for context, without claiming it substitutes for reading this paper. |
+| S13 | Khan, Yu & Zhang (2025), general-state-space Blackwell proof. [DOI](https://doi.org/10.1016/j.econlet.2024.112146) | Already represented in BNL | Reuse `Notes/blackwell-theorem-general-state-space.md`, newly present since prior inventory. That note records indexed definitions/theorem inspection and direct-fetch failure. Publication year is 2025 despite 2024 in DOI; correct the old wiki citation label. |
+| S14 | Bennett et al. (1998), *Information Distance*. [Author submission](https://arxiv.org/abs/1006.3520) | Missing and worth ingesting | Primary abstract and journal metadata inspected. Distinguish 1998 publication from 2010 arXiv deposit; distance is not a superiority ranking. |
+| S15 | Voita & Titov (2020), MDL probing. [ACL](https://aclanthology.org/2020.emnlp-main.14/) | Missing and worth ingesting | Primary abstract inspected. Requires data, properties, and learner/coding assumptions. |
+| S16 | Elmoznino et al., *A Complexity-Based Theory of Compositionality*, v5. [Primary text](https://arxiv.org/html/2410.14817v5) | Already represented in BNL | Reuse `Notes/complexity-based-theory-of-compositionality.md`. Prequential coding and natural-language experiment sections inspected. Not identified as the user's exact recalled round-trip/weight-change paper. |
+
+## Execution checks
+
+- Recheck DOI/arXiv IDs and title variants against BNL Notes and Sources immediately before importing.
+- Record the resulting BNL-relative note path, acquisition status, and supporting passages for each imported work in the execution receipt.
+- Store original/session-developed theory in BNL Ideas with its own provenance; never count it as a finding from these sources.
+- Missing or incomplete literature may remain explicitly pending. Do not block preservation of internal reasoning on pretending every source has been fully retrieved.
+- This ledger stays in adaptive-interfaces. BNL receives self-contained source notes and internal links, not a link back to this ledger.

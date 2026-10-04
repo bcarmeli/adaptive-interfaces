@@ -3,103 +3,96 @@ title: BNL Knowledge Base and Adaptive Interfaces Integration
 type: decision
 created: 2026-10-04
 updated: 2026-10-04
-status: direction-agreed-migration-pending
+status: reviewed-plan-migration-pending
 tags: [knowledge-system, bnl, experiments, ownership]
 ---
 
 # BNL Knowledge Base and Adaptive Interfaces Integration
 
-## Observed State
+## Governing Decision
 
-The external vault is `/Users/boazc/Knowledge/bnl-kb`, entered through `Home.md`. It already incorporates this project:
+The user endorsed merging conceptual research memory into BNL and explicitly requires one-way references: **adaptive-interfaces references BNL; BNL does not reference or depend on adaptive-interfaces.** This supersedes the earlier plan's reciprocal links and external source pointers.
 
-- `Ideas/From_Innate_Language_to_Emergent_Interfaces.md`
-- `Ideas/Language_as_an_Adaptive_Interface.md`
-- `Ideas/Beyond_Natural_Language_fPET_Abstract.md`
-- `Notes/adaptive-interfaces-project-wiki.md`
-- `Maps/Adaptive Interfaces And Latent Capability.md`
-- `Projects/Tool Affordance Selection Game Project.md`
-- `Projects/Compositionality Measurement.md`
+- BNL owns conceptual research memory, literature, working theories, research questions, and general candidate-task synthesis.
+- This repo owns authored paper drafts, executable experiment specifications, implementation, evaluation, results, and operational project state.
+- After cutover, this repo has a short README/status with BNL links. Its conceptual wiki is a frozen historical archive, not an active second memory layer.
+- Original session-developed theory belongs in BNL `Ideas/`, explicitly labeled as researcher's and assistant's working reasoning. `Maps/` summarizes and connects it; `Notes/` documents published sources. The user supplied and endorsed this distinction through the review request.
 
-The three authored document bodies match this repo's versions; the vault adds YAML provenance. There is no observed prose divergence in those three drafts. Summaries have drifted: the vault's project-wiki note still groups examples and demonstrations as discrete references, whereas the September 24 concept revision here qualifies this. Conversely, this repo's status had not reflected BNL's Energy Society priority or newer onboarding/shared-history questions.
+The BNL-session review is accepted on baseline preservation, original-theory placement, source inventory, inactive archive, coordinated cutover, access requirements, and separate commits. Its recommendation to add BNL-to-repo GitHub URLs is superseded by the user's one-way rule. Canonical GitHub URLs are used in the permitted repo-to-BNL direction instead.
 
-The user's reaction in `Briefs/Reactions/reaction-2026-06-07.md` requests emphasis on implementable research rather than vault mechanics. Integration should enable a concrete evaluation, not become another infrastructure project.
+## Baseline and Current State
 
-## Responsibility Split (Direction Agreed)
+- Local pre-migration baseline: `d46baf4f7bd9e7ae0a7b9161eca171e7896de430`, created before revising this plan. It includes the previously untracked wiki, agent instructions, scripts, manifests, research artifacts, and stable Obsidian settings. macOS metadata and transient Obsidian window state remain local and ignored.
+- BNL observed HEAD: `b29f5540ba65e47d3b43450e6f2b3d4ae848ec6c`; working tree was clean at inspection. Recheck at execution; do not overwrite the other session's changes.
+- The three authored draft bodies already copied into BNL match this repo's versions apart from frontmatter. Preserve BNL's copies as self-contained dated research snapshots; continued paper development remains here. No synchronization or BNL pointer back to the working drafts.
+- Existing reverse references were found in BNL draft/source frontmatter, `Notes/adaptive-interfaces-project-wiki.md`, related draft summaries, `Ideas/tool-affordance-selection-game.md`, and the vault-build project. Cutover must replace live source/navigation dependencies with BNL-local snapshots or internal links. Preserve historical attribution as plain source title, authorship, dates, and import identifier without a dependency on this repo.
+- BNL already has Clark/Bangerter, Elmoznino et al., and now the modern Blackwell paper. Reuse those notes. Correct the old 2024 label for the modern Blackwell paper to its 2025 publication year.
 
-- **BNL vault:** cross-project literature, source notes, broad concept synthesis, open research questions, candidate ranking, and the research portfolio. Keep Emergent Communication and Beyond Natural Language as distinct root areas as its AGENTS.md requires.
-- **Adaptive Interfaces repo:** this study's authored drafts, executable experiment specifications, implementation, evaluation definitions, results, and local decision history.
-- **Repo after cutover:** a short project README/status and links to BNL; the active conceptual wiki is merged into BNL and retired locally. Keep experiment-specific operational documentation beside its specifications and implementation.
+## Reference and Provenance Rules
 
-For the three duplicated authored drafts, keep `docs/` authoritative initially because the vault already records it as source. Treat BNL copies as provenance-marked snapshots or replace them with source pointers only in a separately authorized migration. Preserve authored work and avoid bidirectional automatic prose synchronization.
+Use standard relative Markdown links inside BNL. Outbound links from this repo use `https://github.com/bcarmeli/bnl-kb/blob/main/` plus URL-encoded paths, or a commit permalink when reproducibility requires a fixed version. Verify target files at cutover; a locally created but unpushed target is not yet a verified GitHub destination. Local vault paths are operational metadata only.
 
-A BNL project page should carry the research question, hypothesis, current milestone, and link to the repo's implementation/spec. Local status should link back to the relevant BNL project. Cross-project findings can be promoted into BNL with provenance; implementation detail remains local. The user has now endorsed merging the wiki into BNL and retaining experiment artifacts and authored drafts here. The migration procedure below is recommended; no cutover or AGENTS.md change has yet occurred.
+BNL pages must be readable without this checkout. Preserve the full proposition/proof and authored snapshots within BNL where needed. Keep exact original repo paths, hashes, and commit-to-destination mapping in this repo's migration ledger. BNL may retain non-link provenance labels identifying the historical research session and import, but no active links or instructions to open this repo. Existing historical files must not be deleted simply to remove a mention; inventory and explicitly classify any retained provenance-only occurrence.
 
-## Concrete Research Bridge
+## Source Manifest
 
-Connect [[language-identity-and-protocol-evaluation]] to existing BNL questions:
+The source-level inventory is [bnl-migration-sources.md](../../../manifests/bnl-migration-sources.md). It lists all 16 external works referenced by the wiki and separately records source status and depth of inspection:
 
-- `Briefs/Questions/question-interface-format-versus-shared-history.md` (2026-10-04): compare formats with matched feedback, history, and preparation budgets; test receiver replacement.
-- `Briefs/Questions/question-protocol-benefits-after-onboarding-costs.md` (2026-09-28): compare negotiated protocols with concise English and fixed typed schemas after counting design, clarification, and onboarding.
-- `Projects/Compositionality Measurement.md`: connect structural measurements to useful transfer and fresh-receiver acquisition.
+- already represented in BNL;
+- missing and worth ingesting;
+- citation only;
+- partially retrieved or unverified.
 
-Proposed common question: **Does a negotiated interface provide reusable benefits beyond shared history and simple recoding, when onboarding and execution costs are included?**
+No source is silently upgraded from an abstract or citation to a fully reviewed paper. Our conditional separation proposition is not a finding established by these sources. Distinguish basic established mathematics from our proposed application to reference and explanation; do not imply novelty of the elementary packing argument itself.
 
-Use [[tool-affordance-selection-game]] for a controlled first study: known hidden tool factors make referent identity and semantic interventions measurable. Retain Energy Society as BNL's existing prominent candidate and a possible subsequent cost-aware coordination test. This recommendation is based on suitability for the current identity question, not evidence that Energy Society is inferior.
+## Execution Sequence
 
-Minimal comparison: concise negotiable natural language, a fixed typed schema, and an adapted/negotiated protocol, with matched information, memory, interaction opportunities, tool access, and measured preparation/inference budgets. Evaluate held-out factor combinations, original versus fresh receivers, zero-shot cross-play, renaming adapters, onboarding learning curves, and causal message ablations. Explicit schemas may provide useful structure as part of the treatment; document it rather than silently granting privileged information.
+1. **Baseline complete; execution snapshot still required.** The local baseline above protects the previously untracked work. Before migration, record both HEADs and working trees again and capture the final wiki version, including this reviewed plan and source ledger. Preserve unrelated edits. Do not stage unrelated BNL work.
+2. **Confirm BNL write capability.** Current session can read BNL but its writable roots exclude it. Perform BNL edits from the BNL session, or use explicitly granted dual-repo write access. Read access alone is insufficient. A permission requirement does not justify routing around it through Telegram. This turn only revises the plan and commits locally.
+3. **Populate self-contained BNL material.** Follow the page manifest. Put the working proposition in `Ideas/Reference Identity Under Noise.md`; include full proof, assumptions, counterexamples, attribution, unresolved scope, and experiment implications. Merge synthesis into existing maps and project pages. Clearly distinguish user-authored prose, assistant-developed proposals, and published evidence. Do not add BNL-to-repo links.
+4. **Ingest missing literature.** Prefer a bounded direct Inbox batch after deduplication. Telegram is optional transport for individual sources, not the mechanism for merging already compiled theory. The documented capture pipeline may commit/push artifacts; inspect execution behavior before invoking it. `/populate` or a manual consolidation can perform the synthesis step with an explicit change log.
+5. **Reconcile and verify BNL before retiring the wiki.** Check page and source coverage, proposition assumptions, link resolution, open questions, authorship, and the older unconditional discreteness wording. Respect BNL's Energy Society priority while preserving Tool Affordance as a controlled candidate for this particular question. Search for and resolve live reverse dependencies. BNL must pass a self-containment check with this checkout unavailable.
+6. **Coordinate instruction cutover through a receipt.** Prepare both instruction changes together; they cannot be atomically committed across separate repos. BNL's agent rules should express generic ownership of conceptual memory and never require this checkout. Update both `AGENTS.md` and `CLAUDE.md` here to read relevant BNL pages and keep only study-specific operational documentation here. If using two sessions, BNL supplies a receipt with changed BNL-relative paths, commit ID, coverage checks, pending literature, and publication/link availability; this repo verifies it before local retirement. Do not leave one side silently switched during an unfinished handoff.
+7. **Archive explicitly.** Move the final local wiki intact to `docs/archive/wiki-2026-10-04/` at cutover, preserving `log.md` verbatim and the relative page structure. Add `ARCHIVED.md` declaring it frozen, non-authoritative, and excluded from default context, with migration/baseline identifiers and permitted BNL links. If cutover occurs on another date, use that actual date consistently. Leave `docs/wiki/index.md` only as a retirement pointer for old entry points; update current instructions and manifests to avoid stale active-wiki references. Historical links inside the archived snapshot are evidence, not current navigation to repair destructively.
+8. **Separate reviewable commits.** Baseline and this plan revision are separate local commits. Later, commit BNL migration and its instruction changes in BNL; record that receipt and commit local archive/instruction changes separately here. A commit is not a push. Publishing either repo requires authorization covering that action; do not assume source ingestion is a non-publishing operation.
 
-Outcomes: self-play-only gains suggest pair-specific adaptation; cheap relabeling recovery suggests recoding under the chosen equivalence; fresh-receiver and held-out gains after total costs support reusable interface improvement. No single result establishes a universal definition of language.
+## Page-Level Destination Manifest
 
-## Next Concrete Artifact
+Source paths below are relative to `docs/wiki/`. All BNL destinations are internal to BNL and must not point back here. Coverage is checked per source file even when a row groups multiple inputs.
 
-A one-page protocol-comparison spec and a shared metric table, linked from BNL's Tool Affordance and Compositionality projects. Literature additions belong in BNL `Notes/`; cross-project synthesis belongs in `Maps/`; study-specific evaluation belongs here. This session recorded the evidence and plan locally but did not modify, merge, delete, or synchronize the external vault.
+| Wiki input | Canonical destination / disposition |
+| --- | --- |
+| `concepts/interface-affordance-and-reference.md` | Original theory: BNL `Ideas/Reference Identity Under Noise.md`. Concise synthesis: existing `Maps/Adaptive Interfaces And Latent Capability.md`, linking internally to that idea and literature notes. |
+| `concepts/language-as-adaptive-interface.md` | Existing BNL interface and Beyond Natural Language maps; retain proposed-versus-established distinctions. |
+| `concepts/language-identity-and-protocol-evaluation.md` | BNL `Maps/Language Identity And Protocol Evaluation.md`; preserve source-linked literature synthesis. Place original evaluation proposals in an explicitly labeled Ideas note or existing authored/idea context, referenced internally by the map. |
+| `glossary.md`, `decisions/terminology.md` | BNL internal concept/glossary synthesis; consolidate duplicate definitions and retain status of proposals. |
+| `project-overview.md`, `current-status.md` | General research/candidate context in BNL Tool Affordance and task hubs. Implementation status stays in this repo's short project status, without a BNL backlink. |
+| `experiments/tool-affordance-selection-game.md` | Self-contained BNL candidate framing in existing idea/project. Executable spec remains here when developed; it may cite BNL framing. |
+| `experiments/llm-wiki-as-receiver-interface.md` | BNL Tool Affordance variant, including complexity caveat. |
+| `experiments/arc-receiver-selection.md` | Candidate in BNL `Projects/Implementable BNL Tasks.md`, including solver/interface confound. |
+| `sources/language-as-adaptive-interface.md` | Existing BNL `Notes/language-as-adaptive-interface.md`, citing a BNL-local dated authored snapshot instead of external repo paths. |
+| `decisions/bnl-kb-integration.md` | Exact execution history stays in this repo's migration ledger/archive. BNL keeps its own self-contained import receipt with internal destinations and generic ownership policy. |
+| `log.md` | Frozen local archive verbatim. Promote durable outcomes to BNL; no dependency on the old log or checkout. |
+| `index.md` | Local retirement pointer to BNL and project documentation; BNL navigation points only to its internal destinations. |
+
+## Acceptance Criteria
+
+- Every one of the 14 wiki inputs has a verified destination or explicit archive/retention disposition; the execution ledger records hashes and dispositions locally.
+- All 16 cited sources have classifications, inspection limits, and deduplication outcomes; unavailable literature remains visibly pending.
+- BNL contains the complete working proposition with proof, exact robustness assumptions, finite-capacity assumptions, counterexamples, and original/session provenance. Maps do not misattribute it to published literature.
+- No live BNL-to-adaptive-interfaces links, source dependencies, or agent read instructions remain in affected material. Audit the wider vault for existing reverse references; preserve necessary history as non-operational provenance.
+- Internal BNL links resolve. Permitted repo-to-BNL GitHub links are checked when publication is authorized and available; pending remote targets are reported honestly.
+- Authored drafts remain working artifacts here; BNL snapshots are self-contained, dated, and not a second actively synchronized manuscript.
+- Both local agent rule files exclude the frozen archive from default context and use BNL as the conceptual source of truth. BNL's rules do not require this repo.
+- Archive notice exists, old log is unchanged, and the baseline and separate migration commits are recorded.
+- No wiki retirement happens until BNL coverage is verified and a BNL commit/receipt exists.
+
+## Immediate Next Step
+
+Review this revised execution contract with the BNL session. Migration has not started. Use the BNL session for its writable half unless dual-repo access is explicitly available, then return its receipt to this repo for validated cutover.
 
 ## Related Pages
 
 - [[language-identity-and-protocol-evaluation]]
 - [[interface-affordance-and-reference]]
 - [[current-status]]
-
-
-## Recommended Merge Procedure
-
-The user proposed using Telegram or direct Inbox capture. Use source ingestion for missing external literature and a separate semantic consolidation for compiled project knowledge. Re-ingesting papers cannot reconstruct our proofs, qualifications, decisions, priorities, or unresolved questions. Treat the wiki export as internal research provenance, not external corroborating literature.
-
-1. **Snapshot and inventory.** Record both working-tree states, including untracked files, and preserve the complete wiki plus append-only log as a dated frozen snapshot. A git commit alone is not sufficient unless the relevant currently untracked content is included. Create a manifest mapping every wiki page to its BNL target or retained repo artifact, original path, and migration status. Check for existing source notes by DOI/arXiv ID/title before importing literature.
-2. **Populate BNL knowledge.** Merge into existing Maps/Projects first. Add a language-identity/evaluation map only where no existing page owns the content. Preserve theorem assumptions, counterexamples, evidence/proposal distinctions, and the user's authorship. Convert local wiki-style links to BNL's relative Markdown link convention. Use project pages to link to runnable specs rather than duplicating them.
-3. **Ingest missing sources.** Use direct Inbox for a bounded local batch; Telegram remains convenient for individual captures. The currently documented pipeline distinguishes capture from conversation and can commit/push generated artifacts, so ordinary automated capture is not a silent dry run. Do not assume the two entry points invoke identical processors. Associate each source with the specific claims/maps it supports. Reuse the already present compositionality paper and Clark/Bangerter note.
-4. **Reconcile and verify.** Explicitly reconcile the old unconditional discreteness wording with the conditional separation result. Preserve BNL's Energy Society priority and distinguish it from the narrower Tool Affordance proposal. Verify every page in the manifest, all source links, open questions, and the append-only historical record. Sources that were only partially retrieved remain labeled accordingly. Evaluate success by preserved claims and navigable destinations, not imported-file count.
-5. **Cut over once.** Update AGENTS.md and any overlapping CLAUDE.md guidance here to read relevant BNL context and write conceptual conclusions there. Update BNL's project/source pointers and automation context as needed. Leave a short local pointer/index and a frozen legacy archive rather than two active wikis. Keep authored drafts and selected experiment specs here; mark BNL draft copies as snapshots or use links. Do not delete originals before coverage is verified.
-
-The existing `/populate` workflow is a suitable mechanism for deliberate consolidation: it reads a specified conversation and updates Maps, Projects, Notes, and question cards with a population log. A documented manual batch merge can perform the same work. Source capture alone is not a complete merge.
-
-### Page-Level Destination Manifest (Proposed)
-
-All paths on the left are under this repo's `docs/wiki/`; BNL paths are relative to its root. Rows with multiple inputs require separate coverage checks for each file.
-
-| Wiki input | Canonical destination / disposition |
-| --- | --- |
-| `concepts/interface-affordance-and-reference.md` | Merge into BNL `Maps/Adaptive Interfaces And Latent Capability.md`; preserve the proof and caveats in a linked concept map if needed for readability. |
-| `concepts/language-as-adaptive-interface.md` | Merge into the same existing interface map and `Maps/Beyond Natural Language.md`. |
-| `concepts/language-identity-and-protocol-evaluation.md` | New BNL map for language identity and protocol evaluation, linked to `Maps/Compositionality Metrics.md`; include superiority versus distance. |
-| `glossary.md`, `decisions/terminology.md` | Consolidate definitions into the relevant BNL maps or one linked glossary, preserving accepted versus proposed terminology. |
-| `project-overview.md`, `current-status.md` | Reconcile into BNL Tool Affordance project and portfolio context; retain only operational repo status locally. |
-| `experiments/tool-affordance-selection-game.md` | Merge candidate framing into existing BNL Tool Affordance project; retain the eventual executable spec in this repo. |
-| `experiments/llm-wiki-as-receiver-interface.md` | Add as a variant under BNL Tool Affordance project, with complexity caveat. |
-| `experiments/arc-receiver-selection.md` | Add as a candidate in `Projects/Implementable BNL Tasks.md`; preserve its solver/interface confound. |
-| `sources/language-as-adaptive-interface.md` | Reconcile with existing BNL `Notes/language-as-adaptive-interface.md`; identify authored repo draft as source, not independent evidence. |
-| `decisions/bnl-kb-integration.md` | BNL migration record under Meta, plus concise local ownership/pointer documentation. |
-| `log.md` | Preserve verbatim in frozen provenance archive; carry durable outcomes into BNL, not the old chronology as current status. |
-| `index.md` | Replace active local navigation at cutover with BNL/project pointers; update BNL navigation to merged destinations. |
-
-### Acceptance Criteria
-
-- Every source wiki page has a checked destination or explicit archive/retention disposition.
-- Derived reasoning, theorem assumptions, corrections, and open questions survive alongside literature.
-- No duplicate active authored drafts or concept pages are created.
-- Relative links work within BNL; repo links have a documented local or repository location.
-- Existing author content, unrelated local changes, and historical log entries are preserved.
-- Agent entry instructions enforce one conceptual source of truth after cutover.
-
-Status: this session specified the process and manifest locally. No Telegram message, source ingestion, external vault mutation, archive move, or cutover was performed.

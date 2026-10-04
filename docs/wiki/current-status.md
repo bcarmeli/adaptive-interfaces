@@ -12,6 +12,8 @@ status: current
 
 ## Where We Stopped
 
+Latest checkpoint: the user requires one-way references (this repo to BNL only). The BNL-session review has been incorporated into [[bnl-kb-integration]], with original theory assigned to BNL Ideas, a 16-work source manifest, self-contained BNL snapshots, coordinated instruction cutover, and a dated inactive archive. Local baseline commit `d46baf4` now preserves the previously untracked research material. Migration has not started; the BNL write phase should run in its own writable session unless dual-repo permissions are granted. The existing wiki instructions remain active until verified cutover.
+
 The October 4 session reviewed language identity, Fedorenko's neuroscience evidence, and integration with the existing BNL vault. See [[language-identity-and-protocol-evaluation]] for the evidence and proposed operational tests. Shared language-processing mechanisms do not imply identical languages; useful communication, novelty beyond recoding, and language-like properties require separate evidence.
 
 The user accepted the previous discussion as a useful basis. The September 24 conditional discreteness result remains in [[interface-affordance-and-reference]]; it does not prove universal discreteness of explanation.
