@@ -30,7 +30,7 @@ The BNL ownership rule supports deliberate cross-project promotion with receipts
 
 ## Post-cutover audit
 
-The [machine-readable audit](bnl-cutover-audit.json) scanned 145 BNL Markdown files and checked 432 local file targets. It scanned active agent instructions in both repositories.
+The [machine-readable audit](bnl-cutover-audit.json) scanned 146 BNL Markdown files and checked 432 local file targets. It scanned active agent instructions in both repositories.
 
 | Check | Findings |
 | --- | --- |
