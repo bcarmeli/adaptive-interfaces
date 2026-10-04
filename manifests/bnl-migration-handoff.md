@@ -1,10 +1,12 @@
 # BNL migration handoff
 
+**Completed:** BNL returned published commit `fac25b28fb6499a52eecb8e66705d8935788b453`. The verified local cutover is recorded in [bnl-cutover-receipt.md](bnl-cutover-receipt.md). Instructions below are the historical handoff, not pending work.
+
 The user authorized the reviewed BNL migration preparation and publication of the protective adaptive-interfaces commits. This is the handoff for the BNL writable session; the local wiki remains active until its receipt is verified.
 
 ## Inputs
 
-- Execution contract: `docs/wiki/decisions/bnl-kb-integration.md`
+- Execution contract: `docs/archive/wiki-2026-10-04/decisions/bnl-kb-integration.md`
 - Source inventory: `manifests/bnl-migration-sources.md` (S03 reuses the existing constructed-languages note from `a25de38`)
 - Protected pre-migration baseline: `d46baf4`
 - Reviewed ownership plan: `3aa59c1`

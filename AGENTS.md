@@ -1,46 +1,41 @@
 # Adaptive Interfaces Agent Rules
 
-## Knowledge System
+## Ownership
 
-This project uses a wiki-first knowledge system inspired by the LLM Wiki pattern. Knowledge lives in `docs/wiki/`, not in chat history.
+BNL-KB is the canonical conceptual research memory. This repository owns experiment specifications, implementation, evaluation, results, authored paper drafts, and project-specific operational decisions.
+
+References go from this repository to BNL only. BNL must remain understandable without this checkout. Do not create automatic synchronization, reciprocal project links, or a second conceptual wiki here.
 
 ## Session Protocol
 
-For non-trivial project work, start by reading:
+For non-trivial project work:
 
-1. `docs/wiki/index.md`
-2. `docs/wiki/current-status.md`
-3. `docs/wiki/log.md`
+1. Read `README.md` and `docs/project-status.md`.
+2. Read only the relevant BNL maps, ideas, source notes, or project pages linked from the README.
+3. Read local specifications, implementation, or results needed for the task.
 
-Then read additional wiki pages only as needed for the task.
+The local BNL checkout is `/Users/boazc/Knowledge/bnl-kb` (operational metadata). Read its `AGENTS.md` before editing it. Use canonical GitHub URLs for durable links from this repo to BNL; use a commit permalink when reproducing a specific research state. If BNL cannot be accessed, report that limitation and do not silently substitute historical conclusions.
 
-## Default Stance
+## Research and Implementation
 
-- Compile-first: durable conclusions should become wiki pages or updates.
-- Writeback is mandatory: decisions, terminology changes, and conceptual clarifications go back into the wiki.
-- Wiki before heavy RAG: for this small project, read the relevant Markdown directly.
-- Raw sources are source material; the wiki is the compiled consensus.
-- Research drafts in `docs/` are authored outputs; `docs/wiki/` is the agent-maintained memory layer.
+- Distinguish published findings, original working propositions, and experimental results.
+- Preserve assumptions, counterexamples, and unresolved questions when applying BNL concepts.
+- Keep experiment specifications, code, datasets/results, and validation details here; reference their conceptual basis in BNL.
+- Authored drafts in `docs/` are authored outputs. Do not replace them with summaries or revise them unless the task authorizes it.
+- Prefer updating an existing BNL page over creating a duplicate concept page.
 
-## Knowledge Layers
+## Deliberate Conceptual Writeback
 
-- `docs/`: authored research drafts, PDFs, and outputs.
-- `docs/wiki/`: compiled project wiki maintained during work.
-- `manifests/`: indexes for raw/source material when needed.
+When work produces a durable cross-project conclusion, prepare a self-contained BNL summary with the claim, evidence, experimental conditions, limitations, open questions, and status (hypothesis or result). Original theory belongs in BNL Ideas; literature evidence in Notes; connecting synthesis in Maps.
 
-## Wiki Rules
+Operational results remain here. BNL records non-link provenance such as study title, date, authorship, and result identifier, without a dependency on this repository. Keep the exact run/commit mapping in this repo.
 
-- Do not silently replace authored drafts with wiki summaries.
-- Prefer updating existing wiki pages over creating near-duplicates.
-- Use `[[filename-without-extension]]` style links inside wiki pages.
-- Every wiki page except `index.md` and `log.md` should have YAML frontmatter.
-- If two pages conflict, flag the contradiction and resolve it explicitly.
-- Keep `docs/wiki/log.md` append-only.
+Promote through an authorized deliberate BNL update or a handoff to its writable session. Record a receipt here with BNL-relative destinations, BNL commit, and what changed. If BNL is read-only in the current session, prepare the handoff and clearly record promotion as pending; do not bypass filesystem permissions through ingestion automation. Revise promoted conclusions through another explicit update and receipt, never automatic synchronization.
 
 ## Session End
 
-At the end of substantial work:
+For substantial work, update `docs/project-status.md` with operational progress, validation, next steps, and any pending BNL promotion. Append an operational checkpoint there when warranted. General conceptual conclusions belong in BNL via the writeback process above.
 
-1. Update `docs/wiki/current-status.md`.
-2. Append one log entry to `docs/wiki/log.md`.
-3. Update relevant concept, experiment, or decision pages.
+## Frozen History
+
+`docs/archive/` is immutable historical material, excluded from default reads and active source processing. Consult it only for an explicit historical question. Do not append to or rewrite archived logs. The retired wiki entry point is a compatibility pointer only; do not recreate an active wiki.

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-04",
+  "source_commit": "5dfd7f4cde45d1022c1d7b69031c211d3cb63e81",
+  "baseline_commit": "d46baf4f7bd9e7ae0a7b9161eca171e7896de430",
+  "bnl_commit": "fac25b28fb6499a52eecb8e66705d8935788b453",
+  "files": [
+    {
+      "source_path": "docs/wiki/concepts/interface-affordance-and-reference.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/concepts/interface-affordance-and-reference.md",
+      "sha256": "01ad85a79632df43a9a5b7a47b58a758961c31815c53b2c999ed524df860f75e",
+      "bnl_disposition": "Complete working proposition, proof, assumptions, counterexamples, and experiment implications in `Ideas/Reference Identity Under Noise.md`; concise terminology and link in the adaptive-interface map."
+    },
+    {
+      "source_path": "docs/wiki/concepts/language-as-adaptive-interface.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/concepts/language-as-adaptive-interface.md",
+      "sha256": "a317db6cd87a87162cec8ee9e9bdc8330c80ef627959719f08b3bb681ea3b299",
+      "bnl_disposition": "Core thesis consolidated into the adaptive-interface and BNL maps; authored snapshot remains in `Ideas/Language_as_an_Adaptive_Interface.md`."
+    },
+    {
+      "source_path": "docs/wiki/concepts/language-identity-and-protocol-evaluation.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/concepts/language-identity-and-protocol-evaluation.md",
+      "sha256": "c3ab8fd8cf80be8685ea863385a1b7ae7e088d3aa300877ae54197ba706d187c",
+      "bnl_disposition": "Literature synthesis in `Maps/Language Identity And Protocol Evaluation.md`; original evaluation proposals in `Ideas/Protocol Evaluation Criteria.md`."
+    },
+    {
+      "source_path": "docs/wiki/current-status.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/current-status.md",
+      "sha256": "5b830933f797136b6629239ec6b150072f3120a36060cb1396a90f65d760b869",
+      "bnl_disposition": "Durable research state incorporated into BNL maps/projects; source-project operational status intentionally remains local."
+    },
+    {
+      "source_path": "docs/wiki/decisions/bnl-kb-integration.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/decisions/bnl-kb-integration.md",
+      "sha256": "453641edd8fcef3391f20609a8643428aaaa725162fce85471d185946ea79b7d",
+      "bnl_disposition": "This BNL-local receipt records the import; exact source-side execution history remains outside BNL and is not required here."
+    },
+    {
+      "source_path": "docs/wiki/decisions/terminology.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/decisions/terminology.md",
+      "sha256": "6f811160c50956bb8e1451e6a4a8e0deeb683b126657f7d2a793829f67fe4666",
+      "bnl_disposition": "Current terms consolidated into the adaptive-interface map; proposal status preserved."
+    },
+    {
+      "source_path": "docs/wiki/experiments/arc-receiver-selection.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/experiments/arc-receiver-selection.md",
+      "sha256": "944ded1e05caf91923f0815ff117e2556e158ae613e0c8cb19e31cc8b3b15337",
+      "bnl_disposition": "Added to `Projects/Implementable BNL Tasks.md` with the solver/interface confound."
+    },
+    {
+      "source_path": "docs/wiki/experiments/llm-wiki-as-receiver-interface.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/experiments/llm-wiki-as-receiver-interface.md",
+      "sha256": "f39759ec0f1e938151dec68c414dea4ddbe3a0f67ed3a00eb7e6d8f4c93ee5a2",
+      "bnl_disposition": "Retained as a later Tool Affordance interface variant with the complexity caveat."
+    },
+    {
+      "source_path": "docs/wiki/experiments/tool-affordance-selection-game.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/experiments/tool-affordance-selection-game.md",
+      "sha256": "fa9abb154dd9582ccddf2f1ace4e54d1ebf0b38d48bd873d08c6a27d1759309a",
+      "bnl_disposition": "Candidate framing and matched protocol comparison merged into the existing Tool Affordance project and idea."
+    },
+    {
+      "source_path": "docs/wiki/glossary.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/glossary.md",
+      "sha256": "35a809207449845c28227c45b6962a4ea0a281aaa67db3781361ea946ad58785",
+      "bnl_disposition": "Addressability, referential identity, discrete reference, communicative interface, and affordance distinctions consolidated into the adaptive-interface map and reference idea."
+    },
+    {
+      "source_path": "docs/wiki/index.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/index.md",
+      "sha256": "7450c1199c3286130c575ed37b2a77a9e73e0d9f3e50d2dc476acc2090db8762",
+      "bnl_disposition": "BNL navigation updated through `Maps/Knowledge Graph Index.md`; source index can become a retirement pointer after verification."
+    },
+    {
+      "source_path": "docs/wiki/log.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/log.md",
+      "sha256": "c89139564421bd15a5d3780e8f193ea286ac62920676caa31ee8d3b0a49ccc42",
+      "bnl_disposition": "Durable outcomes promoted above; chronological source log remains for the source project's frozen archive."
+    },
+    {
+      "source_path": "docs/wiki/project-overview.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/project-overview.md",
+      "sha256": "90471818f773dbe1e002e045699fb19d3c4f52908bfab8ffe9350e36f84555a1",
+      "bnl_disposition": "Thesis and candidate framing consolidated into the adaptive-interface map and Tool Affordance project."
+    },
+    {
+      "source_path": "docs/wiki/sources/language-as-adaptive-interface.md",
+      "archive_path": "docs/archive/wiki-2026-10-04/sources/language-as-adaptive-interface.md",
+      "sha256": "8418923080b92870962f2f88fc98c8e80a057ff43e2605244725af50190d9d86",
+      "bnl_disposition": "Reconciled with the existing BNL note and self-contained authored snapshot."
+    }
+  ]
+}

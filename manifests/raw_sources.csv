@@ -1,4 +1,4 @@
 id,path,type,status,notes
-src_language_adaptive_interface,docs/Language_as_an_Adaptive_Interface.md,markdown,compiled,Working research direction summarized in docs/wiki/sources/language-as-adaptive-interface.md
+src_language_adaptive_interface,docs/Language_as_an_Adaptive_Interface.md,markdown,compiled,Working research direction summarized in https://github.com/bcarmeli/bnl-kb/blob/main/Notes/language-as-adaptive-interface.md
 src_innate_to_emergent,docs/From_Innate_Language_to_Emergent_Interfaces.md,markdown,pending,Foundational draft on affordances, interfaces, discreteness, and language
 src_beyond_natural_language,docs/Beyond_Natural_Language_fPET_Abstract.md,markdown,pending,Related abstract draft

@@ -1,0 +1,49 @@
+{
+  "scope": {
+    "bnl": "/Users/boazc/Knowledge/bnl-kb",
+    "project": "/Users/boazc/workarea/phd/adaptive-interfaces",
+    "bnl_markdown_files": 146
+  },
+  "counts": {
+    "obsolete_source_frontmatter": 4
+  },
+  "coverage": {
+    "local_file_targets_checked": 432,
+    "other_source_values_require_review": 27,
+    "external_or_scheme_links_not_resolved": 592,
+    "anchors_not_resolved": 106
+  },
+  "findings": [
+    {
+      "kind": "obsolete_source_frontmatter",
+      "file": "/Users/boazc/Knowledge/bnl-kb/Notes/concepts-as-plug-and-play-devices.md",
+      "line": 3,
+      "target": "/Users/boazc/Documents/PhD/References/Philosophical Transactions of the Royal Society Journal From Ronny/rstb.2021.0353.pdf"
+    },
+    {
+      "kind": "obsolete_source_frontmatter",
+      "file": "/Users/boazc/Knowledge/bnl-kb/Notes/concepts-in-interaction-social-engagement-inner-experiences.md",
+      "line": 3,
+      "target": "/Users/boazc/Documents/PhD/References/Philosophical Transactions of the Royal Society Journal From Ronny/rstb.2021.0351.pdf"
+    },
+    {
+      "kind": "obsolete_source_frontmatter",
+      "file": "/Users/boazc/Knowledge/bnl-kb/Notes/division-of-linguistic-labour-offloading-conceptual-understanding.md",
+      "line": 3,
+      "target": "/Users/boazc/Documents/PhD/References/Philosophical Transactions of the Royal Society Journal From Ronny/rstb.2021.0360.pdf"
+    },
+    {
+      "kind": "obsolete_source_frontmatter",
+      "file": "/Users/boazc/Knowledge/bnl-kb/Notes/linguistic-concepts-self-generating-choice-architectures.md",
+      "line": 3,
+      "target": "/Users/boazc/Documents/PhD/References/Philosophical Transactions of the Royal Society Journal From Ronny/rstb.2021.0352.pdf"
+    }
+  ],
+  "limitations": [
+    "Static inventory, not an automatic self-containment certificate.",
+    "Remote URLs, anchors, shortcut reference links, HTML links, and complex Markdown require manual review.",
+    "Classify every historical/example reference and every archive prohibition explicitly in the receipt."
+  ],
+  "verified_bnl_commit": "fac25b28fb6499a52eecb8e66705d8935788b453",
+  "classification": "Only four unrelated pre-existing local-PDF provenance fields remain; no migration dependency or active wiki instruction findings."
+}

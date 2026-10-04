@@ -1,33 +1,9 @@
 # Adaptive Interfaces — Claude Rules
 
-## Knowledge System
+Follow `AGENTS.md` as the canonical project instruction file.
 
-This project uses a wiki-first knowledge system inspired by the LLM Wiki pattern. The compiled project memory lives in `docs/wiki/`.
+For non-trivial work, start with `README.md` and `docs/project-status.md`, then read the relevant BNL context linked there. BNL owns conceptual research memory; this repository owns experiment specifications, implementation, evaluation, results, and authored drafts.
 
-## Session Start
+Keep references one-way from this repo to BNL. Promote durable cross-project conclusions deliberately as self-contained BNL summaries with non-link provenance and a receipt. No automatic synchronization or BNL dependency on this checkout.
 
-For non-trivial project work:
-
-1. Read `docs/wiki/index.md`.
-2. Read `docs/wiki/current-status.md`.
-3. Read `docs/wiki/log.md`.
-4. Read additional pages only as needed.
-
-## During Work
-
-- Durable decisions, terminology, and research insights should be written back to the relevant wiki page.
-- Research drafts in `docs/` remain authored documents; do not rewrite them unless explicitly asked.
-- Raw/source material should be summarized into `docs/wiki/sources/` before being used as durable context.
-
-## Session End
-
-- Update `docs/wiki/current-status.md`.
-- Append to `docs/wiki/log.md`.
-- Keep `docs/wiki/index.md` current when pages are created or renamed.
-
-## Wiki Conventions
-
-- Use YAML frontmatter for wiki pages except `index.md` and `log.md`.
-- Use `[[filename-without-extension]]` internal links.
-- Prefer concise pages with clear links over long monolithic notes.
-- If pages conflict, flag and resolve the conflict explicitly.
+Update project status for substantial operational work. Preserve authored drafts unless editing is authorized. Frozen material under `docs/archive/` is excluded from default context and must not be updated or used as current conceptual authority.

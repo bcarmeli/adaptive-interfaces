@@ -1,5 +1,7 @@
 # BNL migration source manifest
 
+This is the pre-migration inventory. Execution dispositions are in the [published BNL receipt](https://github.com/bcarmeli/bnl-kb/blob/fac25b28fb6499a52eecb8e66705d8935788b453/Meta/adaptive-interfaces-wiki-migration-receipt.md); local verification is in [bnl-cutover-receipt.md](bnl-cutover-receipt.md). Pending literature remains pending; migration does not imply full retrieval.
+
 Inventory date: 2026-10-04. This is a local migration ledger, not an instruction to ingest automatically. All 16 external citations in the current wiki are listed below. Search was against current BNL Notes by title/author and identifier; repeat before execution because another session may add material.
 
 Classification and evidence coverage are separate. An existing source note does not imply its full primary text was read. A citation is not independent support for our original separation proposition. Authored drafts are handled by the page manifest and retained as authored work, not external literature.

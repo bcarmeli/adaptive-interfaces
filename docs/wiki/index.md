@@ -1,29 +1,7 @@
-# Adaptive Interfaces Wiki Index
+# Research wiki retired
 
-This is the compiled project memory for the adaptive interfaces research direction. Authored drafts live in `docs/`; this wiki records durable concepts, decisions, experiment sketches, and source summaries.
+Conceptual research memory moved to [BNL-KB](https://github.com/bcarmeli/bnl-kb/blob/main/Home.md) on 2026-10-04. This directory is only a compatibility pointer; do not add new wiki pages here.
 
-## Start Here
+Start with the [project README](../../README.md) and [project status](../project-status.md).
 
-- [[project-overview]] — high-level synthesis of the project.
-- [[current-status]] — current state, next actions, and open blockers.
-- [[glossary]] — canonical vocabulary and usage notes.
-- [[log]] — append-only activity log.
-
-## Concepts
-
-- [[interface-affordance-and-reference]] — interface, affordance, variable reference, and discreteness.
-- [[language-as-adaptive-interface]] — core thesis connecting partner selection and task execution.
-
-- [[language-identity-and-protocol-evaluation]] — language criteria, evidence, and protocol comparison.
-
-## Experiments
-
-- [[tool-affordance-selection-game]] — minimal tool/API selection experiment.
-- [[llm-wiki-as-receiver-interface]] — using a wiki as the receiver-facing interface in experiments.
-- [[arc-receiver-selection]] — ARC-style receiver selection sketch.
-
-## Decisions
-
-- [[terminology]] — durable naming and framing decisions.
-
-- [[bnl-kb-integration]] — proposed ownership and research bridge with the BNL vault.
+The [frozen historical archive](../archive/wiki-2026-10-04/ARCHIVED.md) is excluded from default context. See the [cutover receipt](../../manifests/bnl-cutover-receipt.md) for verification and provenance.
